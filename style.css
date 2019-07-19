@@ -19,7 +19,7 @@ section>input,p{
 }
 section input{
     padding:20px;
-    font-size:20px;
+    font-size:30px;
     outline:none;
     border:10px solid red;
     border-radius: 10%;
@@ -49,8 +49,8 @@ section p{
 }
 @media all and (max-width:600px){
     section input{
-        padding:20px;
-        font-size:30px;
+        padding:10px;
+        font-size:20px;
        
         border:2px solid red;
         border-radius: 10%;

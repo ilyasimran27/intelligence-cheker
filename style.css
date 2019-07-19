@@ -1,0 +1,69 @@
+body{
+   margin:0;
+}
+section{
+display:flex;
+flex-direction: column;
+align-items: center;
+height:100vh;
+justify-content: space-around;
+
+
+background-image: linear-gradient(to top, #393e3e, #61697e, #41464b);
+}
+section>input,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+section input{
+    padding:20px;
+    font-size:30px;
+    outline:none;
+    border:10px solid red;
+    border-radius: 10%;
+    color:blue;
+}
+section button{
+    padding:40px;
+    font-size:40px;
+    color:red;
+    border:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff;
+    border:20px solid black;
+    outline:none;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: blue;
+    color:yellow;
+    transition: 3s;
+}
+section p{
+    color:rgb(122, 216, 93);
+    font-size:60px;
+    transition: 3s;
+}
+@media all and (max-width:600px){
+    section input{
+        padding:5px;
+        
+       
+        border:5px solid red;
+        border-radius: 10%;
+        
+    }
+    section button{
+        
+        font-size:25px;
+       
+}
+section p{
+    color:green;
+    font-size:30px;
+    transition: 3s;
+}
+    
+}

@@ -1,5 +1,6 @@
 body{
    margin:0;
+   padding:0;
 }
 section{
 display:flex;
@@ -12,13 +13,13 @@ justify-content: space-around;
 background-image: linear-gradient(to top, #393e3e, #61697e, #41464b);
 }
 section>input,p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif;
     text-align: center;
     text-transform: uppercase;
 }
 section input{
     padding:20px;
-    font-size:30px;
+    font-size:15px;
     outline:none;
     border:10px solid red;
     border-radius: 10%;

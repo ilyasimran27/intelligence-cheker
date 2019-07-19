@@ -47,10 +47,10 @@ section p{
     font-size:60px;
     
 }
-@media all and (max-width:900px){
+@media all and (max-width:600px){
     section input{
         padding:10px;
-        font-size:10px;
+        font-size:20px;
        
         border:2px solid red;
         border-radius: 10%;
